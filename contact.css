@@ -1,0 +1,141 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+.navbar{
+  background-color: cream;
+  width: 100%;
+  height: 70px;
+  
+}
+
+span{
+  color: #7C22CE;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  font-weight: bold;
+}
+
+.logo{
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  color: #7C22CE;
+}
+
+.bar{
+  background-color: #7C22CE;
+  color: white;
+  height: 0px;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  transition: 0.3s ease;
+}
+
+
+.bar nav ul li{
+  list-style: none;
+  padding: 20px ;
+  display: flex;
+  justify-content: center;
+}
+
+.bar nav ul li a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  /* justify-content: center; */
+}
+
+#toggle{
+  display: none;
+}
+
+#toggle:checked ~ .bar{
+  height: 310px;
+}
+#toggle:checked ~ .bar nav ul li{
+  display: flex;
+  justify-content: center;
+}
+#toggle:checked ~ .fo-con{
+  opacity: 0;
+}
+
+.h1{
+  margin-left: 30px;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.main-1{
+  display: flex;
+  border: white solid 2px;
+  box-shadow: 0 3px 10px rgb(124 34 206 / 0.3);
+  height: 200px;
+  width: 300px;
+  margin: 30px 80px;
+}
+
+.my-logo{
+  height: 50px;
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+.ros{
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fo-con{
+  position: absolute;
+  left: 105px;
+  top: 340px;
+}
+
+.fo-l{
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.fo-logo{
+  height: 40px;
+  position: absolute;
+  left: 110px;
+  bottom: 140px;
+}
+
+.fo-p{
+  font-size: 20px;
+  color: grey;
+  position: absolute;
+  left: 170px;
+  bottom: 145px;
+}
+
+.fo-p2{
+  color: grey;
+  position: absolute;
+  left: 80px;
+  bottom: 100px;
+}
+
+.fo-com{
+  position: absolute;
+  bottom: 60px;
+  left: 150px;
+}
+
+.fo-m{
+  color: grey;
+  padding: 0 8px;
+}

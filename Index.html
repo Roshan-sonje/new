@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>menu</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="toggle" class="to" />
+    <div class="container" >
+      <div class="menu" id="menu">
+        <div>
+          <label for="toggle"><span class="line-1"></span></label>
+          <span class="line-2"></span>
+          <span class="line-3"></span>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="both">
+      
+    </div>
+<script>
+  var menu = document.getElementById("menu");
+  
+  menu.onclick = function(){
+    menu.classList.toggle("openmenu");
+  }
+  
+  
+
+  
+
+</script>
+  </body>
+</html>

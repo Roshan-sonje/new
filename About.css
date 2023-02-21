@@ -1,0 +1,207 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+.navbar{
+  background-color: cream;
+  width: 100%;
+  height: 70px;
+  
+}
+
+span{
+  color: #7C22CE;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  font-weight: bold;
+}
+
+.logo{
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  color: #7C22CE;
+}
+
+.bar{
+  position: fixed;
+  background-color: #7C22CE;
+  color: white;
+  height: 0px;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+
+.bar nav ul li{
+  list-style: none;
+  padding: 20px ;
+  display: flex;
+  justify-content: center;
+}
+
+.bar nav ul li a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  /* justify-content: center; */
+}
+
+#toggle{
+  display: none;
+}
+
+#toggle:checked ~ .bar{
+  height: 310px;
+}
+#toggle:checked ~ .bar nav ul li{
+  display: flex;
+  justify-content: center;
+}
+
+.main{
+  display: flex;
+}
+
+.head-1{
+  color: voilet;
+  margin-left: 45px;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.head-2{
+  color: #7C22CE;
+  margin-top: 48px;
+  margin-left: 20px;
+}
+
+.main-2{
+  display: flex;
+}
+
+.hi{
+  margin-top: 40px;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ros{
+  margin-left: 9px;
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.dev{
+  margin-top: 80px;
+  margin-left: -15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.main-3{
+  position: absolute;
+  top: 420px;
+  font-size: 20px;
+  line-height: 55px;
+  margin-left: 10px;
+}
+
+.img-1{
+  position: absolute;
+  right: 0px;
+}
+
+h2{
+  position: absolute;
+  right: 40px;
+  top: 1000px;
+}
+
+.main-4{
+  position: absolute;
+  right: 70px;
+  top: 1055px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.img-2{
+  top: 900px;
+  position: absolute;
+  left: 0px;
+}
+
+.fo{
+  /* background-color: black; */
+  width: 100%;
+  height: 160px;
+  display: flex;
+} 
+/* .fa {
+  color: red;
+  background-color: white;
+} */
+
+.youtube{
+  background-color: #fff;
+  height: 250px;
+  width: 300px;
+  margin: 20px 76px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.you{
+  height: 70px;
+  margin: 30px 100px;
+}
+
+.you-btn{
+  margin: 45px 88px;
+  background-color: #7C22CE;
+  color: white;
+  padding: 5px 40px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.fo-logo{
+  height: 40px;
+  position: absolute;
+  left: 110px;
+  bottom: -599px;
+}
+
+.fo-p{
+  font-size: 20px;
+  color: grey;
+  position: absolute;
+  left: 170px;
+  bottom: -599px;
+}
+
+.fo-p2{
+  color: grey;
+  position: absolute;
+  left: 80px;
+  bottom: -640px;
+}
+
+.fo-con{
+  /* margin: 120px 150px; */
+}
+
+.fo-l{
+  color: grey;
+  padding: 0 8px;
+}
+
